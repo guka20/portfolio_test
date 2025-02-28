@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav-bar {
+  padding: 10px 0;
+}
+.nav-bar .nav-bar-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar .nav-bar-container .logo {
+  font-size: 1.6rem;
+  color: #2d2d2d;
+}
+
+.nav-bar .nav-bar-container .links {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.nav-bar .nav-bar-container .links a {
+  text-decoration: none;
+  color: black;
+  font-family: "Epilogue", serif;
+  font-size: 17px;
+}
