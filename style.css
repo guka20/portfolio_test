@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
 }
+/* ===============================  NAVBAR CODE ========================== */
 .nav-bar {
   padding: 10px 0;
 }
@@ -30,4 +31,41 @@ body {
   color: black;
   font-family: "Epilogue", serif;
   font-size: 17px;
+}
+
+/* ================================================ MAIN TAG =============== */
+
+.main {
+  width: 87%;
+  max-width: 1300px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+/* ============================================== BANNER CODE ============== */
+
+.main .banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .banner .textures {
+  width: 50%;
+}
+.main .banner .textures .subtitle {
+  font-size: 20px;
+}
+.main .banner .textures .title {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.main .banner .textures .description {
+  font-size: 17px;
+}
+.main .banner .image-place {
+  width: 50%;
+}
+.main .banner .image-place img {
+  width: 90%;
 }
