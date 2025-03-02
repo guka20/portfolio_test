@@ -76,7 +76,49 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 60px 0;
 }
 .main .sponsores img {
   height: 35px;
+}
+/* ========================================= DESIGNS */
+.main .designs {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.main .designs .design {
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+.main .designs .design .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* ============================================== LATEST */
+
+.main .latest-section h2 {
+  text-align: center;
+}
+.main .latest-section .latests {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  justify-content: space-between;
+  row-gap: 50px;
+}
+.main .latest-section .latests .item p {
+  margin: 10px 0;
+}
+.main .latest-section .latests .item .title {
+  font-weight: bold;
+  font-size: 1.1rem;
 }
